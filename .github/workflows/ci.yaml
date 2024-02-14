@@ -6,10 +6,15 @@ jobs:
   my_first_job:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - name: hello
         run: |
           echo "Hello world 🎉 "
-      - name: exmaple this will fail
-        run: exit 1;
+      - name: run python script
+        run: |
+          pip install -r requirements.txt
+          python ci.py
+
+        
       
       
