@@ -1,3 +1,3 @@
 # wandb_CICD
 WandB-CICD
-This repo is created as sample test-example for github actions workflow CI/CD.
+This repo contains sample test for github actions workflow CI/CD.
